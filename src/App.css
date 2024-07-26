@@ -1,38 +1,2440 @@
-.App {
-  text-align: center;
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headermain{
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headermain ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style-type: none;
+  padding: 20px;
+  justify-content: space-around;
+  outline: none;
+  background-color: #023b6d;
+  color: aliceblue;
+}
+.headermain button{
+  width: 13%;
+  padding: 6px;
+  background-color: #023b6d;
+  border: solid 2px aliceblue;
+  color: rgb(160, 125, 28);
+  text-align: start;
+
+
+}
+.App .text{
+  text-align: center;
+  margin-top: 120px;
+  
+
+}
+.App .text h1{
+  color: #023b6d;
+}
+.App .text .text-1{
+  margin-top: 30px;
+  color: #024681;;
+}
+.App .text .text-2{
+  margin-top: 10px;
+  color: #024681;;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.App .QuickstartPortion img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion .img2{
+  width: 40%;
+}
+.QuickstartPortion{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+}
+.QuickstartPortion .textportion{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion .textportion h2{
+ color: #035195 ;
+}
+.QuickstartPortion .textportion .text1{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion .textportion .text2{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion .textportion .text3{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion .textportion .button1{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion .textportion .button2 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion .textportion .button1:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion .textportion .button2:hover{
+  color: #035195;
+  border-color: #035195;
+  }
+
+
+
+.App .QuickstartPortion2 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion2 .img22{
+  width: 50%;
+}
+.QuickstartPortion2{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.QuickstartPortion2 .textportion2{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion2 .textportion2 h2{
+ color: #035195 ;
+}
+.QuickstartPortion2 .textportion2 .text12{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion2 .textportion2 .text22{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion2 .textportion2 .text32{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion2 .textportion2 .button12{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion2 .textportion2 .button22 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion2 .textportion2 .button12:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion2 .textportion2 .button22:hover{
+  color: #035195;
+  border-color: #035195;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.App .QuickstartPortion3 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion3 .img3{
+  width: 50%;
+}
+.QuickstartPortion3{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.QuickstartPortion3 .textportion3{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion3 .textportion3 h2{
+ color: #035195 ;
+}
+.QuickstartPortion3 .textportion3 .text13{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion3 .textportion3 .text23{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion3 .textportion3 .text33{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion3 .textportion3 .button13{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion3 .textportion3 .button23 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion3 .textportion3 .button13:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion3 .textportion3 .button23:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+.App .QuickstartPortion4 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion4 .img4{
+  width: 50%;
+}
+.QuickstartPortion4{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion4{
+  margin-left: 60px;
+
+}
+.QuickstartPortion4 .textportion4{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion4 .textportion4 h2{
+ color: #035195 ;
+}
+.QuickstartPortion4 .textportion4 .text41{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion4 .textportion4 .text42{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion4 .textportion4 .text43{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion4 .textportion4 .button41{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion4 .textportion4 .button42 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion4 .textportion4 .button41:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion4 .textportion4 .button42:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+.App .QuickstartPortion5 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion5 .img5{
+  width: 50%;
+}
+.QuickstartPortion5{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion5{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion5 .textportion5{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion5 .textportion5 h2{
+ color: #035195 ;
+}
+.QuickstartPortion5 .textportion5 .text51{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion5 .textportion5 .text52{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion5 .textportion5 .text53{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion5 .textportion5 .button51{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion5 .textportion5 .button52 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion5 .textportion5 .button51:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion5 .textportion5 .button52:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+.App .QuickstartPortion6 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion6 .img6{
+  width: 50%;
+}
+.QuickstartPortion6{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion6{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion6 .textportion6{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion6 .textportion6 h2{
+ color: #035195 ;
+}
+.QuickstartPortion6 .textportion6 .text16{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion6 .textportion6 .text26{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion6 .textportion6 .text36{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion6 .textportion6 .button16{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion6 .textportion6 .button26 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion6 .textportion6 .button16:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion6 .textportion6 .button26:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+.App .QuickstartPortion7 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion7 .img7{
+  width: 50%;
+}
+.QuickstartPortion7{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion7{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion7 .textportion7{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion7 .textportion7 h2{
+ color: #035195 ;
+}
+.QuickstartPortion7 .textportion7 .text17{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion7 .textportion7 .text27{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion7 .textportion7 .text37{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion7 .textportion7 .button17{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion7 .textportion7 .button27 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion7 .textportion7 .button17:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion7 .textportion7 .button27:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+.App .QuickstartPortion8 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion8 .img8{
+  width: 50%;
+}
+.QuickstartPortion8{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion8 .textportion8{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion8 .textportion8 h2{
+ color: #035195 ;
+}
+.QuickstartPortion8 .textportion8 .text18{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion8 .textportion8 .text28{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion8 .textportion8 .text38{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion8 .textportion8 .button18{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion8 .textportion8 .button28 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion8 .textportion8 .button18:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion8 .textportion8 .button28:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion9 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion9 .img9{
+  width: 50%;
+}
+.QuickstartPortion9{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion9 .textportion9{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion9 .textportion9 h2{
+ color: #035195 ;
+}
+.QuickstartPortion9 .textportion9 .text19{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion9 .textportion9 .text29{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion9 .textportion9 .text39{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion9 .textportion9 .button19{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion9 .textportion9 .button29 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion9 .textportion9 .button19:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion9 .textportion9 .button29:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+.App .QuickstartPortion10 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion10 .img10{
+  width: 50%;
+}
+.QuickstartPortion10{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion10 .textportion10{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion10 .textportion10 h2{
+ color: #035195 ;
+}
+.QuickstartPortion10 .textportion10 .text110{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion10 .textportion10 .text210{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion10 .textportion10 .text310{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion10 .textportion10 .button110{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion10 .textportion10 .button210 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion10 .textportion10 .button110:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion10 .textportion10 .button210:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.App .QuickstartPortion11 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion11 .img11{
+  width: 50%;
+}
+.QuickstartPortion11{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion11 .textportion11{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion11 .textportion11 h2{
+ color: #035195 ;
+}
+.QuickstartPortion11 .textportion11 .text111{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion11 .textportion11 .text211{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion11 .textportion11 .text311{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion11 .textportion11 .button111{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion11 .textportion11 .button211 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion11 .textportion11 .button111:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion11 .textportion11 .button211:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+.App .QuickstartPortion12 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion12 .img12{
+  width: 50%;
+}
+.QuickstartPortion12{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion12 .textportion12{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion12 .textportion12 h2{
+ color: #035195 ;
+}
+.QuickstartPortion12 .textportion12 .text112{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion12 .textportion12 .text212{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion12 .textportion12 .text312{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion12 .textportion12 .button112{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion12 .textportion12 .button212 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion12 .textportion12 .button112:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion12 .textportion12 .button212:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion13 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion13 .img13{
+  width: 50%;
+}
+.QuickstartPortion13{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion13 .textportion13{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion13 .textportion13 h2{
+ color: #035195 ;
+}
+.QuickstartPortion13 .textportion13 .text113{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion13 .textportion13 .text213{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion13 .textportion13 .text313{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion13 .textportion13 .button113{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion13 .textportion13 .button213 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion13 .textportion13 .button113:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion13 .textportion13 .button213:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+.App .QuickstartPortion14 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion14 .img14{
+  width: 50%;
+}
+.QuickstartPortion14{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion14 .textportion14{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion14 .textportion14 h2{
+ color: #035195 ;
+}
+.QuickstartPortion14 .textportion14 .text114{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion14 .textportion14 .text214{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion14 .textportion14 .text314{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion14 .textportion14 .button114{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion14 .textportion14 .button214 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion14 .textportion14 .button114:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion14 .textportion14 .button214:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+.App .QuickstartPortion15 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion15 .img15{
+  width: 50%;
+}
+.QuickstartPortion15{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion15 .textportion15{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion15 .textportion15 h2{
+ color: #035195 ;
+}
+.QuickstartPortion15 .textportion15 .text115{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion15 .textportion15 .text215{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion15 .textportion15 .text315{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion15 .textportion15 .button115{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion15 .textportion15 .button215 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion15 .textportion15 .button115:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion15 .textportion15 .button215:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion16 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion16 .img16{
+  width: 50%;
+}
+.QuickstartPortion16{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion16 .textportion16{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion16 .textportion16 h2{
+ color: #035195 ;
+}
+.QuickstartPortion16 .textportion16 .text116{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion16 .textportion16 .text216{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion16 .textportion16 .text316{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion16 .textportion16 .button116{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion16 .textportion16 .button216 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion16 .textportion16 .button116:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion16 .textportion16 .button216:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+.App .QuickstartPortion17 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion17 .img17{
+  width: 50%;
+}
+.QuickstartPortion17{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion17 .textportion17{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion17 .textportion17 h2{
+ color: #035195 ;
+}
+.QuickstartPortion17 .textportion17 .text117{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion17 .textportion17 .text217{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion17 .textportion17 .text317{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion17 .textportion17 .button117{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion17 .textportion17 .button217 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion17 .textportion17 .button117:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion17 .textportion17 .button217:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+.App .QuickstartPortion18 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion18 .img18{
+  width: 50%;
+}
+.QuickstartPortion18{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion18 .textportion18{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion18 .textportion18 h2{
+ color: #035195 ;
+}
+.QuickstartPortion18 .textportion18 .text118{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion18 .textportion18 .text218{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion18 .textportion18 .text318{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion18 .textportion18 .button118{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion18 .textportion18 .button218 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion18 .textportion18 .button118:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion18 .textportion18 .button218:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+
+.App .QuickstartPortion19 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion19 .img19{
+  width: 50%;
+}
+.QuickstartPortion19{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion19 .textportion19{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion19 .textportion19 h2{
+ color: #035195 ;
+}
+.QuickstartPortion19 .textportion19 .text119{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion19 .textportion19 .text219{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion19 .textportion19 .text319{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion19 .textportion19 .button119{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion19 .textportion19 .button219 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion19 .textportion19 .button119:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion19 .textportion19 .button219:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+.App .QuickstartPortion20 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion20 .img20{
+  width: 50%;
+}
+.QuickstartPortion20{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion20 .textportion20{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion20 .textportion20 h2{
+ color: #035195 ;
+}
+.QuickstartPortion20 .textportion20 .text120{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion20 .textportion20 .text220{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion20 .textportion20 .text320{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion20 .textportion20 .button120{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion20 .textportion20 .button220 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion20 .textportion20 .button120:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion20 .textportion20 .button220:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+.App .QuickstartPortion21 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion21 .img21{
+  width: 50%;
+}
+.QuickstartPortion21{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion21 .textportion21{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion21 .textportion21 h2{
+ color: #035195 ;
+}
+.QuickstartPortion21 .textportion21 .text121{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion21 .textportion21 .text221{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion21 .textportion21 .text321{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion21 .textportion21 .button121{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion21 .textportion21 .button221 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion21 .textportion21 .button121:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion21 .textportion21 .button221:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion22 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion22 .img22{
+  width: 50%;
+}
+.QuickstartPortion22{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion22 .textportion22{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion22 .textportion22 h2{
+ color: #035195 ;
+}
+.QuickstartPortion22 .textportion22 .text122{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion22 .textportion22 .text222{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion22 .textportion22 .text322{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion22 .textportion22 .button122{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion22 .textportion22 .button222 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion22 .textportion22 .button122:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion22 .textportion22 .button222:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion23 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion23 .img23{
+  width: 50%;
+}
+.QuickstartPortion23{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion23 .textportion23{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion23 .textportion23 h2{
+ color: #035195 ;
+}
+.QuickstartPortion23 .textportion23 .text123{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion23 .textportion23 .text223{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion23 .textportion23 .text323{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion23 .textportion23 .button123{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion23 .textportion23 .button223 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion23 .textportion23 .button123:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion23 .textportion23 .button223:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+.App .QuickstartPortion24 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion24 .img24{
+  width: 50%;
+}
+.QuickstartPortion24{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion24 .textportion24{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion24 .textportion24 h2{
+ color: #035195 ;
+}
+.QuickstartPortion24 .textportion24 .text124{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion24 .textportion24 .text224{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion24 .textportion24 .text324{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion24 .textportion24 .button124{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion24 .textportion24 .button224 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion24 .textportion24 .button124:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion24 .textportion24 .button224:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+.App .QuickstartPortion25 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion25 .img25{
+  width: 50%;
+}
+.QuickstartPortion25{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion25 .textportion25{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion25 .textportion25 h2{
+ color: #035195 ;
+}
+.QuickstartPortion25 .textportion25 .text125{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion25 .textportion25 .text225{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion25 .textportion25 .text325{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion25 .textportion25 .button125{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion25 .textportion25 .button225 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion25 .textportion25 .button125:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion25 .textportion25 .button225:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+.App .QuickstartPortion26 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion26 .img26{
+  width: 50%;
+}
+.QuickstartPortion26{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion26 .textportion26{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion26 .textportion26 h2{
+ color: #035195 ;
+}
+.QuickstartPortion26 .textportion26 .text126{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion26 .textportion26 .text226{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion26 .textportion26 .text326{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion26 .textportion26 .button126{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion26 .textportion26 .button226 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion26 .textportion26 .button126:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion26 .textportion26 .button226:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+.App .QuickstartPortion27 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion27 .img27{
+  width: 50%;
+}
+.QuickstartPortion27{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion27 .textportion27{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion27 .textportion27 h2{
+ color: #035195 ;
+}
+.QuickstartPortion27 .textportion27 .text127{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion27 .textportion27 .text227{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion27 .textportion27 .text327{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion27 .textportion27 .button127{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion27 .textportion27 .button227 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion27 .textportion27 .button127:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion27 .textportion27 .button227:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion28 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion28 .img28{
+  width: 50%;
+}
+.QuickstartPortion28{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion28 .textportion28{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion28 .textportion28 h2{
+ color: #035195 ;
+}
+.QuickstartPortion28 .textportion28 .text128{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion28 .textportion28 .text228{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion28 .textportion28 .text328{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion28 .textportion28 .button128{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion28 .textportion28 .button228 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion28 .textportion28 .button128:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion28 .textportion28 .button228:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion29 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion29 .img29{
+  width: 50%;
+}
+.QuickstartPortion29{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion29 .textportion29{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion29 .textportion29 h2{
+ color: #035195 ;
+}
+.QuickstartPortion29 .textportion29 .text129{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion29 .textportion29 .text229{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion29 .textportion29 .text329{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion29 .textportion29 .button129{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion29 .textportion29 .button229 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion29 .textportion29 .button129:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion29 .textportion29 .button229:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+
+.App .QuickstartPortion30 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion30 .img30{
+  width: 50%;
+}
+.QuickstartPortion30{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion30 .textportion30{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion30 .textportion30 h2{
+ color: #035195 ;
+}
+.QuickstartPortion30 .textportion30 .text130{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion30 .textportion30 .text230{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion30 .textportion30 .text330{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion30 .textportion30 .button130{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion30 .textportion30 .button230 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion30 .textportion30 .button130:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion30 .textportion30 .button230:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+
+
+.App .QuickstartPortion31 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion31 .img31{
+  width: 50%;
+}
+.QuickstartPortion31{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion31 .textportion31{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion31 .textportion31 h2{
+ color: #035195 ;
+}
+.QuickstartPortion31 .textportion31 .text131{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion31 .textportion31 .text231{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion31 .textportion31 .text331{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion31 .textportion31 .button131{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion31 .textportion31 .button231 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion31 .textportion31 .button131:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion31 .textportion31 .button231:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+
+
+
+
+.App .QuickstartPortion32 img{
+  width: 80%;
+  /* height: 1000vh; */
+}
+.App .QuickstartPortion32 .img32{
+  width: 50%;
+}
+.QuickstartPortion32{
+  display: flex;
+  width: 90%;  
+  margin: 0 auto; 
+  margin-top: 100px;
+  margin-left: 128px;
+}
+.textportion8{
+  /* margin-left: 60px; */
+
+}
+.QuickstartPortion32 .textportion32{
+  margin-top: 50px;
+  width: 100%;
+}
+.QuickstartPortion32 .textportion32 h2{
+ color: #035195 ;
+}
+.QuickstartPortion32 .textportion32 .text132{
+ color: #212529;
+ margin-top: 30px;
+}
+.QuickstartPortion32 .textportion32 .text232{
+  color: #212529;
+  margin-top: 10px;
+}
+.QuickstartPortion32 .textportion32 .text332{
+  color: #212529;
+
+  margin-top: 10px;
+}
+.QuickstartPortion32 .textportion32 .button132{
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-right: 00px;
+  border-radius: solid #212529 11111px;
+}
+.QuickstartPortion32 .textportion32 .button232 {
+  width: 130px;
+  padding: 10px;
+  color: #023b6d;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+.QuickstartPortion32 .textportion32 .button132:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+.QuickstartPortion32 .textportion32 .button232:hover{
+  color: #035195;
+  border-color: #035195;
+  
+}
+
+.lasttext .one{
+  margin-top: 60px;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.lasttext .two{
+  margin-top: 20px;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.lasttext .three{
+  margin-top: 20px;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.lasttext .four{
+  margin-top: 20px;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.Footer{
+  display: flex;
+  background-color:#024681;
+  color: rgb(221, 203, 180);
+  margin-top: 20px;
+}
+.Footer .part1{
+  margin-right: 40px;
+  margin-left: 124px;
+  margin-top: 20px;
+}
+.Footer .part1 h5{
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+.Footer .part2{
+  line-height: 1.5rem;
+}
+.Footer .part2 ul{
+  list-style-type: none;
+}
+.Footer .part2 h3{
+  margin-top: 20px;
+}
+.Footer .part3 ul{
+  list-style-type: none;
+}
+
+
+
+
+.Footer .part3{
+  line-height: 1.5rem;
+  margin-left: 20px;
+}
+.Footer .part3 h3{
+  margin-top: 20px;
+}
+.Footer .part3 ul{
+  list-style-type: none;
+}
+
+
+
+
+.Footer .part4{
+  line-height: 1.5rem;
+  margin-left: 20px;
+}
+.Footer .part4 ul{
+  list-style-type: none;
+}
+.Footer .part4 h3{
+  margin-top: 20px;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lasttext h4{
+  width: 80%;
+  margin: 0 auto;
+
 }
